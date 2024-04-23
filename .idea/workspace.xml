@@ -39,6 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.GetMethod.executor": "Run",
+    "TestNG.GetMethod.testGetAPI.executor": "Run",
+    "TestNG.PostMethod.testPostAPI.executor": "Run",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/sbdar/OneDrive/Desktop/api_automate/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
@@ -46,7 +48,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.PostMethod.testPostAPI">
     <configuration name="GetMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_automate" />
       <extension name="coverage">
@@ -64,8 +66,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetMethod.testGetAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api_automate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validate" />
+      <option name="MAIN_CLASS_NAME" value="validate.GetMethod" />
+      <option name="METHOD_NAME" value="testGetAPI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostMethod.testPostAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api_automate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validate" />
+      <option name="MAIN_CLASS_NAME" value="validate.PostMethod" />
+      <option name="METHOD_NAME" value="testPostAPI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostMethod.testPostAPI" />
+        <item itemvalue="TestNG.GetMethod.testGetAPI" />
         <item itemvalue="TestNG.GetMethod" />
       </list>
     </recent_temporary>
