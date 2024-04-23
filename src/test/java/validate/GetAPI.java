@@ -4,11 +4,9 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItem;
 
-import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class GetMethod {
+public class GetAPI {
     @Test
     public void testGetAPI() {
         baseURI = "https://reqres.in/api";

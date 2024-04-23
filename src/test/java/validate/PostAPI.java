@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
-public class PostMethod {
+public class PostAPI {
     @Test
     public void testPostAPI(){
         baseURI = "https://reqres.in/api";
